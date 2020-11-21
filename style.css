@@ -35,3 +35,18 @@ video {
     background-color: rgb(230, 209, 223);
     color: black;
   }
+
+  .sotsmeedia img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .sotsmeedia a{
+    padding: 0px 11px;
+    padding-top: 10px;
+    float: left;
+  }
+
+  .sotsmeedia a:hover{
+      background-color: rgba(51, 50, 50, 0.308);
+  }
