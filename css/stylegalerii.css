@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(360deg, rgba(228,191,199,1) 0%, rgba(199,122,154,1) 60%, rgba(180,96,130,1) 100%);
+  font-family: 'Raleway';
+  font-size: 1.3rem;
+  border: 0.6rem solid  rgb(228,191,199);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2vw;
+  margin-bottom: 2vh;
+}
+
+.rida{
+  margin-top: 1rem;
+}
+
+label{
+  float: left;
+  width: 8rem;
+  margin-left: 2.2rem;
+}
+
+input {
+  float: left;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0rem;
+  border: 0.1rem solid white;
+  margin-left: 2rem;
+}
+
+textarea{
+  border-radius: 0.3rem;
+  border: 0.01rem solid white;
+  margin-left: 2rem;
+}
+
+
+
+#gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  grid-template-areas: 
+  "gallery-p gallery-p gallery-p gallery-p"
+  "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+  "kohvik1 kohvik2 kohvik3 kohvik4"
+  "kohvik5 kohvik6 kohvik7 kohvik8"
+  "kohvik9 kohvik10 kohvik11 kohvik12"
+  
+  ;
+}
+
+#gallery .gallery-img{
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+#gallery .kohvik1{
+  grid-area: kohvik1;
+  background-image: url("../images/galerii/small/kohvik1.jpg");
+}
+#gallery .kohvik2{
+  grid-area: kohvik2;
+  background-image: url("../images/galerii/small/kohvik2.jpg");
+}
+#gallery .kohvik3{
+  grid-area: kohvik3;
+  background-image: url("../images/galerii/small/kohvik3.jpg");
+}
+#gallery .kohvik4{
+  grid-area: kohvik4;
+  background-image: url("../images/galerii/small/kohvik4.jpg");
+}
+#gallery .kohvik5{
+  grid-area: kohvik5;
+  background-image: url("../images/galerii/small/kohvik5.jpg");
+}
+#gallery .kohvik6{
+  grid-area: kohvik6;
+  background-image: url("../images/galerii/small/kohvik6.jpg");
+}
+#gallery .kohvik7{
+  grid-area: kohvik7;
+  background-image: url("../images/galerii/small/kohvik7.jpg");
+}
+#gallery .kohvik8{
+  grid-area: kohvik8;
+  background-image: url("../images/galerii/small/kohvik8.jpg");
+}
+#gallery .kohvik9{
+  grid-area: kohvik9;
+  background-image: url("../images/galerii/small/kohvik9.jpg");
+}
+#gallery .kohvik10{
+  grid-area: kohvik10;
+  background-image: url("../images/galerii/small/kohvik10.jpg");
+}#gallery .kohvik11{
+  grid-area: kohvik11;
+  background-image: url("../images/galerii/small/kohvik11.jpg");
+}#gallery .kohvik12{
+  grid-area: kohvik12;
+  background-image: url("../images/galerii/small/kohvik12.jpg");
+}
+#gallery .gallery-img div{
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery .gallery-img div:hover{
+  opacity: 0.8;
+  transition: all ease-in-out 100ms;
+}
+
+#gallery .gallery-img a{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+
+.img-window {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  background: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.img-window img{
+  max-height: 80vh;
+  max-width: 80vw;
+}
+
+.img-btn-next{
+  display: block;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #111111;
+  position: fixed;
+  top: 48vh;
+  z-index: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.img-btn-next:hover{
+  opacity: 0.8;
+}
+
+.img-btn-prev{
+  display: block;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #111111;
+  position: fixed;
+  top: 48vh;
+  z-index: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.img-btn-prev:hover{
+  opacity: 0.8;
+}

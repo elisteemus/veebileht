@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(360deg, rgba(228,191,199,1) 0%, rgba(199,122,154,1) 60%, rgba(180,96,130,1) 100%);
+  font-family: 'Raleway';
+  font-size: 1.3rem;
+  border: 0.6rem solid rgb(228,191,199);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+  margin-bottom: 3rem;
+}
+
+.meist{
+  border: 0.3rem solid white;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  width: 34.8rem;
+}
+
+.kohale{
+  margin: 1rem;
+  border: 0.3rem solid white;
+  border-radius: 0.2rem;
+  width: 34.8rem;
+    
+}
+
+#kohvik{
+  border: 0.3rem solid white;
+  border-radius: 0.2rem;
+  width: 34.6rem;
+  height: 26rem;
+  margin: 1rem;
+}

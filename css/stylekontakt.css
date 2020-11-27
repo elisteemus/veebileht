@@ -16,31 +16,6 @@ body{
     margin-bottom: 3rem;
 }
 
-.header{
-    font-family: 'Clicker Script', cursive;
-    font-size: 3.2rem;
-    color: white;
-    opacity: 90%;
-    text-shadow: 2px 2px 5px black;
-    margin: 1rem 1.5rem;
-}
-
-.kontakt{
-    width: 34.8rem;
-    border: 0.3rem solid white;
-    border-radius: 0.2rem;
-    margin: 1rem;
-}
-
-h2{
-    margin: 1rem 1.5rem;
-}
-
-p{
-    margin: 1rem 1.5rem;
-}
-
-
 .form{
     width: 34.8rem;
     border: 0.3rem solid white;
@@ -93,41 +68,3 @@ button{
     border: 0.3rem solid white;
     border-radius: 0.2rem;
 }
-
-.navbar {
-    background-color: rgb(145, 72, 106);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    font-family: 'Clicker Script', cursive;
-  }
-
-  .navbar a {
-    float: right;
-    display: block;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 33px;
-  }
-
-  .navbar a:hover {
-    background-color: rgb(230, 209, 223);
-    color: black;
-  }
-
-  .sotsmeedia img{
-    width: 40px;
-    height: 40px;
-  }
-
-  .sotsmeedia a{
-    padding: 0px 11px;
-    padding-top: 10px;
-    float: left;
-  }
-
-  .sotsmeedia a:hover{
-      background-color: rgba(51, 50, 50, 0.308);
-  }
