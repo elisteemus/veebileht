@@ -8,6 +8,10 @@
   margin-top: 1rem;
 }
 
+body{
+  margin-bottom: 4rem;
+}
+
 label{
   float: left;
   width: 8rem;
