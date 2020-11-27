@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(360deg, rgba(228,191,199,1) 0%, rgba(199,122,154,1) 60%, rgba(180,96,130,1) 100%);
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    border: 0.6rem solid  rgb(228,191,199);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-bottom: 3rem;
+}
+
+.header{
+    font-family: 'Clicker Script', cursive;
+    font-size: 3.2rem;
+    color: white;
+    opacity: 90%;
+    text-shadow: 2px 2px 5px black;
+    margin: 1rem 1.5rem;
+}
+
+
+h2{
+    margin: 1rem 1.5rem;
+}
+
+p{
+    margin: 1rem 1.5rem;
+}
+
+.formtext{
+    width: 34.8rem;
+    margin: 1rem;
+    width: 40%;
+}
+
+.form{
+    width: 34.8rem;
+    margin: 1rem;
+    float: left;
+    width: 50%;
+}
+
+.rida{
+    margin-top: 1rem;
+}
+
+label{
+    float: left;
+    width: 8rem;
+    margin-left: 2.2rem;
+}
+
+input {
+    float: left;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0rem;
+    border: 0.1rem solid white;
+    margin-left: 2rem;
+}
+
+textarea{
+    border-radius: 0.3rem;
+    border: 0.01rem solid white;
+    margin-left: 2rem;
+}
+
+button{
+    padding: 0.3rem 1rem;
+    background: rgb(167, 85, 123);
+    border: 0.1rem solid  white;
+    border-radius: 0.8rem;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Clicker Script', cursive;
+    float: right;
+    margin: 1rem;
+    margin-top: 0rem;
+}
+
+.navbar {
+    background-color: rgb(145, 72, 106);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Clicker Script', cursive;
+  }
+
+  .navbar a {
+    float: right;
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 33px;
+  }
+
+  .navbar a:hover {
+    background-color: rgb(230, 209, 223);
+    color: black;
+  }
+
+  .sotsmeedia img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .sotsmeedia a{
+    padding: 0px 11px;
+    padding-top: 10px;
+    float: left;
+  }
+
+  .sotsmeedia a:hover{
+      background-color: rgba(51, 50, 50, 0.308);
+  }
