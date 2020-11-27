@@ -1,3 +1,7 @@
+body{
+  border: none;
+}
+
 video {
     position: fixed;
     max-width: 100%;
