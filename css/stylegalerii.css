@@ -4,17 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
-  background: linear-gradient(360deg, rgba(228,191,199,1) 0%, rgba(199,122,154,1) 60%, rgba(180,96,130,1) 100%);
-  font-family: 'Raleway';
-  font-size: 1.3rem;
-  border: 0.6rem solid  rgb(228,191,199);
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 2vw;
-  margin-bottom: 2vh;
-}
-
 .rida{
   margin-top: 1rem;
 }

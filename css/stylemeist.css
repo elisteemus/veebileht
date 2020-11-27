@@ -5,15 +5,7 @@
 }
 
 body{
-  background: linear-gradient(360deg, rgba(228,191,199,1) 0%, rgba(199,122,154,1) 60%, rgba(180,96,130,1) 100%);
-  font-family: 'Raleway';
-  font-size: 1.3rem;
-  border: 0.6rem solid rgb(228,191,199);
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 2rem;
-  margin-bottom: 3rem;
 }
 
 .meist{

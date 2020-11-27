@@ -1,3 +1,14 @@
+body{
+  background: linear-gradient(360deg, rgba(228,191,199,1) 0%, rgba(199,122,154,1) 60%, rgba(180,96,130,1) 100%);
+  font-family: 'Raleway';
+  font-size: 1.3rem;
+  border: 0.6rem solid  rgb(228,191,199);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+  margin-bottom: 3rem;
+}
+
 .navbar {
     background-color: rgb(145, 72, 106);
     opacity: 100%;
@@ -31,13 +42,7 @@
     margin: 1rem 1.5rem;
   }
   
-  .kontakt{
-    width: 34.8rem;
-    border: 0.3rem solid white;
-    border-radius: 0.2rem;
-    margin: 1rem;
-  }
-
+ 
   h2{
     margin: 1rem 1.5rem;
   }
