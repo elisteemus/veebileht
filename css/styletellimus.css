@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 30rem;
+}
+
+.formtext{
+    width: 34.8rem;
+    margin: 1rem;
+    width: 40%;
+}
+
+.form{
+    width: 34.8rem;
+    margin: 1rem;
+    float: left;
+    width: 50%;
+}
+
+.rida{
+    margin-top: 1rem;
+}
+
+label{
+    float: left;
+    width: 8rem;
+    margin-left: 2.2rem;
+}
+
+input {
+    float: left;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0rem;
+    border: 0.1rem solid white;
+    margin-left: 2rem;
+}
+
+textarea{
+    border-radius: 0.3rem;
+    border: 0.01rem solid white;
+    margin-left: 2rem;
+}
+
+button{
+    padding: 0.3rem 1rem;
+    background: rgb(167, 85, 123);
+    border: 0.1rem solid  white;
+    border-radius: 0.8rem;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Clicker Script', cursive;
+    float: right;
+    margin: 1rem;
+    margin-top: 0rem;
+}
