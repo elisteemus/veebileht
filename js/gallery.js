@@ -1,4 +1,4 @@
-let galleryImages = document.querySelectorAll(".gallery-img");
+let galleryImages = document.querySelectorAll(".gallery-img");  
 let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 
@@ -30,15 +30,15 @@ if(galleryImages){
 
 
                 let newNextBtn = document.createElement("a");
-                let btnNextText = document.createTextNode("Next");
+                let btnNextText = document.createTextNode("Edasi");
                 newNextBtn.appendChild(btnNextText);
                 container.appendChild(newNextBtn);
                 newNextBtn.setAttribute("class", "img-btn-next");
                 newNextBtn.setAttribute("onclick", "changeImg(1)");
                 newNextBtn.style.cssText = "right: "+ calcImgToEdge +"px;";    
-
+                
                 let newPrevBtn = document.createElement("a");
-                let btnPrevText = document.createTextNode("Prev");
+                let btnPrevText = document.createTextNode("Tagasi");
                 newPrevBtn.appendChild(btnPrevText);
                 container.appendChild(newPrevBtn);
                 newPrevBtn.setAttribute("class", "img-btn-prev");
@@ -73,14 +73,14 @@ function changeImg(changeDir){
             calcNewImg = 1;
         }
     }
-    else if(changeDir = 0){
+    else if(changeDir === 0){
         calcNewImg = getLatestOpenedImg - 1;
         if(calcNewImg < 1){
             calcNewImg = galleryImages.length;
         }
     }
 
-    newImg.setAttribute("src", "./images/galerii/kohvik" +calcNewImg +".jpg");
+    newImg.setAttribute("src", "./images/galerii/kook" +calcNewImg +".jpg");
     newImg.setAttribute("id", "current-img");
 
     getLatestOpenedImg = calcNewImg;

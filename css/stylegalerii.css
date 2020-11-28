@@ -32,13 +32,16 @@ textarea{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 10px;
+  grid-gap: 15px;
+  margin: 4rem;
+  margin-top: 2rem;
   grid-template-areas: 
   "gallery-p gallery-p gallery-p gallery-p"
   "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
-  "kohvik1 kohvik2 kohvik3 kohvik4"
-  "kohvik5 kohvik6 kohvik7 kohvik8"
-  "kohvik9 kohvik10 kohvik11 kohvik12"
+  "kook1 kook2 kook3 kook4"
+  "kook5 kook6 kook7 kook8"
+  "kook9 kook10 kook11 kook12"
+  "kook13 kook14 kook15 kook16"
   
   ;
 }
@@ -53,51 +56,69 @@ textarea{
 }
 
 
-#gallery .kohvik1{
-  grid-area: kohvik1;
-  background-image: url("../images/galerii/small/kohvik1.jpg");
+#gallery .kook1{
+  grid-area: kook1;
+  background-image: url("../images/galerii/small/kook1.jpg");
 }
-#gallery .kohvik2{
-  grid-area: kohvik2;
-  background-image: url("../images/galerii/small/kohvik2.jpg");
+#gallery .kook2{
+  grid-area: kook2;
+  background-image: url("../images/galerii/small/kook2.jpg");
 }
-#gallery .kohvik3{
-  grid-area: kohvik3;
-  background-image: url("../images/galerii/small/kohvik3.jpg");
+#gallery .kook3{
+  grid-area: kook3;
+  background-image: url("../images/galerii/small/kook3.jpg");
 }
-#gallery .kohvik4{
-  grid-area: kohvik4;
-  background-image: url("../images/galerii/small/kohvik4.jpg");
+#gallery .kook4{
+  grid-area: kook4;
+  background-image: url("../images/galerii/small/kook4.jpg");
 }
-#gallery .kohvik5{
-  grid-area: kohvik5;
-  background-image: url("../images/galerii/small/kohvik5.jpg");
+#gallery .kook5{
+  grid-area: kook5;
+  background-image: url("../images/galerii/small/kook5.jpg");
 }
-#gallery .kohvik6{
-  grid-area: kohvik6;
-  background-image: url("../images/galerii/small/kohvik6.jpg");
+#gallery .kook6{
+  grid-area: kook6;
+  background-image: url("../images/galerii/small/kook6.jpg");
 }
-#gallery .kohvik7{
-  grid-area: kohvik7;
-  background-image: url("../images/galerii/small/kohvik7.jpg");
+#gallery .kook7{
+  grid-area: kook7;
+  background-image: url("../images/galerii/small/kook7.jpg");
 }
-#gallery .kohvik8{
-  grid-area: kohvik8;
-  background-image: url("../images/galerii/small/kohvik8.jpg");
+#gallery .kook8{
+  grid-area: kook8;
+  background-image: url("../images/galerii/small/kook8.jpg");
 }
-#gallery .kohvik9{
-  grid-area: kohvik9;
-  background-image: url("../images/galerii/small/kohvik9.jpg");
+#gallery .kook9{
+  grid-area: kook9;
+  background-image: url("../images/galerii/small/kook9.jpg");
 }
-#gallery .kohvik10{
-  grid-area: kohvik10;
-  background-image: url("../images/galerii/small/kohvik10.jpg");
-}#gallery .kohvik11{
-  grid-area: kohvik11;
-  background-image: url("../images/galerii/small/kohvik11.jpg");
-}#gallery .kohvik12{
-  grid-area: kohvik12;
-  background-image: url("../images/galerii/small/kohvik12.jpg");
+#gallery .kook10{
+  grid-area: kook10;
+  background-image: url("../images/galerii/small/kook10.jpg");
+}
+#gallery .kook11{
+  grid-area: kook11;
+  background-image: url("../images/galerii/small/kook11.jpg");
+}
+#gallery .kook12{
+  grid-area: kook12;
+  background-image: url("../images/galerii/small/kook12.jpg");
+}
+#gallery .kook13{
+  grid-area: kook13;
+  background-image: url("../images/galerii/small/kook13.jpg");
+}
+#gallery .kook14{
+  grid-area: kook14;
+  background-image: url("../images/galerii/small/kook14.jpg");
+}
+#gallery .kook15{
+  grid-area: kook15;
+  background-image: url("../images/galerii/small/kook15.jpg");
+}
+#gallery .kook16{
+  grid-area: kook16;
+  background-image: url("../images/galerii/small/kook16.jpg");
 }
 #gallery .gallery-img div{
   width: 100%;
