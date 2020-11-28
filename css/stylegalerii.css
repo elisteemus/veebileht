@@ -117,6 +117,7 @@ textarea{
   background-image: url("../images/galerii/small/kook15.jpg");
 }
 #gallery .kook16{
+  text-align: center;
   grid-area: kook16;
   background-image: url("../images/galerii/small/kook16.jpg");
 }
