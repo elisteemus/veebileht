@@ -14,25 +14,54 @@
 <body>
     <div class="formtext">
         <h1 class="header">Esita tellimus</h1>
-        <p>Enamik tooteid on saadaval meie Balti Jaama kaupluses,
-             ent kui te soovite tellida suuremas koguses tooteid või kutsuda
-              Vahvlihaldjad oma üritusele, siis pange oma soov siitkaudu teele! :) 
-              Meie tublid haldjad võtavad teiega esimesel võimalusel ühendust.</p>
+        <p>Enamik tooteid on saadaval meie Balti Jaama kaupluses, ent kui tahate olla kindlad, et 
+        maiustusi jätkuks või soovite tellida suuremas koguses, siis pange oma soov siitkaudu teele! :) 
+        Sünnipäevatortide tellimiseks palume samuti täita allolev ankeet. Meie tublid haldjad võtavad 
+        teiega esimesel võimalusel ühendust, et soovi täpsustada või kinnitada.</p>
     </div>
-    <div class="form">       
-        <form aria-required="true">
-            <div class="rida"><label for="nimi">Nimi</label>
-                <input name="nimi" type="text" id="nimi" size="36"></div>
-            <br>
-            <div class="rida"><label for="meil">Meiliaadress</label>
-                <input name="email" type="email" id="meil" size="36"> </div>
-            <br>
-            <div class="rida"><label for="sõnum">Sõnum</label>
-                <textarea name="sõnum" id="sõnum" cols="35" rows="10"></textarea>
-            </div>
-            <br>
-            <button type="submit">Saada</button>
-        </form>
+
+    <div class="form">
+    <div class="testbox">
+        <div class="item">
+            <p>Täisnimi:</p>
+            <input type="text">
+        </div>
+        <div class="item">
+            <p>E-mail:</p>
+            <input type="email">
+        </div>
+        <div class="item">
+            <p>Telefoninr:</p>
+            <input type="tel">
+          </div>
+        <div class="item">
+            <p>Soovin tellida:</p>
+            <select>
+              <option value=""></option>
+              <option value="1">Oreo tassikook</option>
+              <option value="2">Nutella tassikook</option>
+              <option value="3">Snickersi tassikook</option>
+              <option value="4">Minni tassikook</option>
+              <option value="5">Ükssarviku tassikook</option>
+              <option value="6">Pavlova</option>
+              <option value="7">Sünnipäevatort</option>
+            </select>
+        </div>
+        <div class="item">
+            <p>Kogus:</p>
+            <input type="text">
+        </div>
+        <div class="item">
+            <p>Juhul, kui soovite tellida sünnipäevatorti, palun täpsustage oma soovi alloleval väljal:</p>
+            <textarea rows="5" ></textarea>
+        </div>
+        <div class="item">
+            <p>Tulen tellimusele järgi (oleme avatud E-P 10.00-19.00):</p>
+            <input type="date" name="date"/>
+        </div>
+        <br>
+        <button type="submit">Esita tellimus</button>
+    </div>
     </div>
 
     <div class="navbar">
