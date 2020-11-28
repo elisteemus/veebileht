@@ -13,26 +13,70 @@
 
 <body>
     <div class="formtext">
+        <div class="tellimus">
         <h1 class="header">Esita tellimus</h1>
-        <p>Enamik tooteid on saadaval meie Balti Jaama kaupluses,
-             ent kui te soovite tellida suuremas koguses tooteid või kutsuda
-              Vahvlihaldjad oma üritusele, siis pange oma soov siitkaudu teele! :) 
-              Meie tublid haldjad võtavad teiega esimesel võimalusel ühendust.</p>
+        <p>Enamik tooteid on saadaval meie Balti Jaama kaupluses, ent kui tahate olla kindlad, et 
+        maiustusi jätkuks või soovite tellida suuremas koguses, siis pange oma soov siitkaudu teele! :) 
+        Sünnipäevatortide tellimiseks palume samuti täita allolev ankeet. Meie tublid haldjad võtavad 
+        teiega esimesel võimalusel ühendust, et soovi täpsustada või kinnitada.</p> <br>
+        </div>
+
+        <div class="hinnakiri">
+        <h3 class="header">Hinnakiri</h3>
+        <p>
+            Oreo tassikook: . . . . . . . . . . . . . . . . . . . . . . . . 3.80€<br>
+            Nutella tassikook:. . . . . . . . . . . . . . . . . . . . . . . . 3.80€<br>
+            Snickersi tassikook:. . . . . . . . . . . . . . . . . . . . . .3.80€<br>
+            Minni tassikook:. . . . . . . . . . . . . . . . . . . . . . . . 4.00€<br>
+            Ükssarviku tassikook: . . . . . . . . . . . . . . . . . . 4.20€<br>
+            Pavlova:. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4.20€<br>
+            Sünnipäevatort:. . . . . . . . . . . . . . . . . . . . . . . . 23€/kg <br>
+        </p>
+        </div>
     </div>
-    <div class="form">       
-        <form aria-required="true">
-            <div class="rida"><label for="nimi">Nimi</label>
-                <input name="nimi" type="text" id="nimi" size="36"></div>
-            <br>
-            <div class="rida"><label for="meil">Meiliaadress</label>
-                <input name="email" type="email" id="meil" size="36"> </div>
-            <br>
-            <div class="rida"><label for="sõnum">Sõnum</label>
-                <textarea name="sõnum" id="sõnum" cols="35" rows="10"></textarea>
-            </div>
-            <br>
-            <button type="submit">Saada</button>
-        </form>
+
+    <div class="form">
+    <div class="testbox">
+        <div class="rida">
+            <p>Täisnimi:</p>
+            <input type="text">
+        </div>
+        <div class="rida">
+            <p>E-mail:</p>
+            <input type="email">
+        </div>
+        <div class="rida">
+            <p>Telefoninr:</p>
+            <input type="tel">
+          </div>
+        <div class="rida">
+            <p>Soovin tellida:</p>
+            <select>
+            <option value="1">Vali toode</option>
+            <option value="2">Oreo tassikook</option>
+            <option value="3">Nutella tassikook</option>
+            <option value="4">Snickersi tassikook</option>
+            <option value="5">Minni tassikook</option>
+            <option value="6">Ükssarviku tassikook</option>
+            <option value="7">Pavlova</option>
+            <option value="8">Sünnipäevatort</option>
+            </select>
+        </div>
+        <div class="rida">
+            <p>Kogus:</p>
+            <input type="text">
+        </div>
+        <div class="rida">
+            <p>Juhul, kui soovite tellida sünnipäevatorti, palun täpsustage oma soovi alloleval väljal:</p>
+            <textarea rows="5"></textarea>
+        </div>
+        <div class="rida">
+            <p>Tulen tellimusele järgi (oleme avatud E-P 10.00-19.00):</p>
+            <input type="date"/>
+        </div>
+        <br>
+        <button type="submit">Esita tellimus</button>
+    </div>
     </div>
 
     <div class="navbar">
